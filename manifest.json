@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "tldr-tab",
+  "version": "0.1.0",
+  "description": "Chrome extension that summarizes the current page with an LLM",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": { "default_popup": "popup.html" },
+  "options_page": "options.html"
+}
